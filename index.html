@@ -6,9 +6,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modulo 13 - Exercicio</title>
 
+    <!-- CSS Customized -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-sm fixed-top bg-light">     
+            <a href="#" class="navbar-brand"><img src="img/logo.png" alt="logo" style="width: 90px;"></a>
+            <h2>Módulo 13 - Exercício</h2>
+        </nav>
+    </header>
+
+    <!-- Carousel -->
+    <div class="carousel slide container-carousel" id="carrocel-exec" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carrocel-exec" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carrocel-exec" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carrocel-exec" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- Slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/carousel/fox-1.jpg" alt="Fox 1" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h3>Fox 1</h3>
+                    <p>Imagem de uma Raposa 1</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel/fox-2.jpg" alt="Fox 2" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h3>Fox 2</h3>
+                    <p>Imagem de uma Raposa 2</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel/fox-3.jpg" alt="Fox 3" class="d-block w-100">
+                <div class="carousel-caption">
+                    <h3>Fox 3</h3>
+                    <p>Imagem de uma Raposa 3</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrocel-exec" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carrocel-exec" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <div class="container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="card">
+                        <div class="card-header bg-primary">
+                            Card 1
+                        </div>
+                        <div class="card-body">
+                            <img src="img/dog-news.JPG" class="card-img-top" alt="Card 1" style="width:100%">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt cupiditate itaque a ipsam minima debitis velit, voluptatem, veniam corrupti deserunt aspernatur.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-primary">Saiba mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="card">
+                        <div class="card-header bg-info">
+                            Card 2
+                        </div>
+                        <div class="card-body">
+                            <img src="img/dog-marketing.JPG" class="card-img-top" alt="Card 2" style="width:100%">
+                            <p>Provident natus minima eum, voluptas, nesciunt adipisci neque ratione nemo similique obcaecati beatae veniam laboriosam ab dolore! Pariatur iste vitae error corporis!</p>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-primary">Saiba mais</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="card">
+                        <div class="card-header bg-light">
+                            Card 3
+                        </div>
+                        <div class="card-body">
+                            <img src="img/dog-question.JPG" class="card-img-top" alt="Card 2" style="width:100%">
+                            <p>Beatae veniam laboriosam ab dolore! Pariatur iste vitae error corporis!.Provident natus minima eum, voluptas, nesciunt adipisci neque ratione nemo similique obcaecati.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button type="button" class="btn btn-primary">Saiba mais</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h1>Desenvolvido por: Henrique F. Paes</h1>
+    </footer>
+
     
     <!-- JQuery -->
     <script src="js/jquery-3.6.3.min.js"></script>
