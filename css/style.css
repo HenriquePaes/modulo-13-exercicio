@@ -37,3 +37,7 @@ footer {
     background-color: lightslategrey;
     color: white;
 }
+
+.card {
+    margin: 10px;
+}
